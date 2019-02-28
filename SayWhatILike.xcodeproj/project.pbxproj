@@ -12,6 +12,7 @@
 		8989E9C221F9906A0027DF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9C021F9906A0027DF49 /* Main.storyboard */; };
 		8989E9C421F9906A0027DF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9C321F9906A0027DF49 /* Assets.xcassets */; };
 		8989E9C721F9906A0027DF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9C521F9906A0027DF49 /* LaunchScreen.storyboard */; };
+		8989E9D121F99D210027DF49 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9D021F99D210027DF49 /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8989E9C321F9906A0027DF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8989E9C621F9906A0027DF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8989E9C821F9906A0027DF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8989E9D021F99D210027DF49 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8989E9BB21F9906A0027DF49 /* SayWhatILike */ = {
 			isa = PBXGroup;
 			children = (
+				8989E9D021F99D210027DF49 /* apple.png */,
 				8989E9BC21F9906A0027DF49 /* AppDelegate.swift */,
 				8989E9BE21F9906A0027DF49 /* ViewController.swift */,
 				8989E9C021F9906A0027DF49 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				8989E9C721F9906A0027DF49 /* LaunchScreen.storyboard in Resources */,
 				8989E9C421F9906A0027DF49 /* Assets.xcassets in Resources */,
+				8989E9D121F99D210027DF49 /* apple.png in Resources */,
 				8989E9C221F9906A0027DF49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,13 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = SayWhatILike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patipol.SayWhatILike;
+				PRODUCT_BUNDLE_IDENTIFIER = "---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = SayWhatILike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patipol.SayWhatILike;
+				PRODUCT_BUNDLE_IDENTIFIER = "---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
